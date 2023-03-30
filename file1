@@ -1,0 +1,5 @@
+#!/bin/bash
+echo "my build process started using BASH Shell"
+date
+cat /var/log/syslog > /tmp/file1
+echo "my build process completed successfully using BASH Shell"
